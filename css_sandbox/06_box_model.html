@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box Model, Margin and Padding</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background: lightgray;
+            border: 2px grey solid;
+            width: 500px;
+
+            /*!* Padding all around *!*/
+            /*padding: 20px;*/
+            /*!* Order lower takes priority *!*/
+            /*padding-top: 10px;*/
+            /*padding-bottom: 5px;*/
+
+            /* Padding Shorthand: top, right, bottom, left */
+            padding: 10px 20px 5px 20px;
+
+            /* Margin all around */
+            margin: 20px;
+        }
+
+        .box h3 {
+            padding-bottom: 10px;
+        }
+
+        p {
+            padding-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <h3>Box One</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi facere harum illo necessitatibus
+        neque quos voluptatum. Corporis, dolor, ducimus!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquid aspernatur assumenda atque aut
+        consequatur cumque dicta dignissimos dolores eaque esse eum id illo iste iusto magni minus molestiae
+        necessitatibus nobis quae quia quidem, saepe sit vel voluptas voluptatem! Accusantium dolor, illum laudantium
+        neque nostrum quia. Ad aspernatur autem dolores, et excepturi id inventore iste laborum, libero nemo officia
+        saepe? Accusantium alias dolorem doloremque dolorum explicabo fuga fugit omnis quae repellendus sequi similique
+        sint, ullam unde? Asperiores atque dicta dolorem, eaque, earum, esse expedita fuga incidunt labore modi nobis
+        nostrum optio quasi quia quisquam quod sequi tempore veniam voluptatem?</p>
+</div>
+<div class="box">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi facere harum illo necessitatibus
+        neque quos voluptatum. Corporis, dolor, ducimus!</p>
+</div>
+</body>
+</html>
