@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Flex Playground</title>
+    <style>
+        * {
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+        div {
+            border: #000000 1px solid;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .child {
+            /*max-width: 200px;*/
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="child">1 Lorem.</div>
+    <div class="child">2 Lorem ipsum dolor.</div>
+    <div class="child">3 Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+    <div class="child">4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur dicta,
+        dignissimos dolorem doloremque ea enim in iure laudantium minus mollitia nam nostrum pariatur quam reiciendis,
+        saepe tempora velit! Cum!
+    </div>
+    <div class="child">5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur possimus quibusdam
+        voluptas.
+    </div>
+    <div class="child">6 Lorem.</div>
+    <div class="child">7 Lorem ipsum dolor.</div>
+    <div class="child">8 Lorem ipsum dolor sit amet.</div>
+    <div class="child">9 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum et molestiae obcaecati provident
+        sint. Asperiores commodi distinctio.
+    </div>
+</div>
+</body>
+</html>
